@@ -108,7 +108,7 @@ The content of the file revealed the required flag.
 
 ---
 
-## Key Takeaways
+## Lesson Learned
 
 1. **Recursive Fuzzing**:
    Automating subdirectory exploration with recursion significantly reduced manual effort and time. The `-recursion` flag allowed me to discover nested files efficiently.
@@ -122,7 +122,4 @@ The content of the file revealed the required flag.
 4. **Wordlist Selection**:
    Using a concise but effective wordlist like `directory-list-2.3-small.txt` was critical for meaningful results within a reasonable timeframe.
 
----
 
-## Conclusion
-Recursive fuzzing using **Ffuf** allowed me to efficiently identify hidden directories and files, leading to the discovery of the flag `HTB{fuzz1n6_7h3_w3b!}`. These techniques are essential for web application security assessments and provide a strong foundation for real-world penetration testing scenarios.
